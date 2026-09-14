@@ -10,28 +10,23 @@ A comprehensive study of enterprise system topologies and architectural patterns
 
 ## 📂 Repository Directory
 
-### 📑 000_A_Starter
-*Contains structural guidelines, prompt engineering methodologies, and architectural blueprints for kickstarting designs.*
-* **`01_way1.md`** — Core architecture methodology
-* **`Z_how_do_we_start.md`** — Standardized design blueprints
-* **`Z_A_Prompt.md`** & **`Z_B_Prompt_Manuplation.md`** — LLM prompt tools for system generation
 
-### 📝 000_B_SystemStudy
+### 📝 SystemStudy
 *Dedicated conceptual research, domain models, and high-level structural blueprints.*
-* `t1_002_student_management`
-* `t1_003_contact_book`
-* `t1_004_expense_tracker`
-* `t1_005_movie_rental`
-* `t1_006_expense_tracker`
-* `t1_007_task_manager`
+* [`t1_002_student_management`](./000_B_SystemStudy/t1_002_student_management/)
+* [`t1_003_contact_book`](./000_B_SystemStudy/t1_003_contact_book/)
+* [`t1_004_expense_tracker`](./000_B_SystemStudy/t1_004_expense_tracker/)
+* [`t1_005_movie_rental`](./000_B_SystemStudy/t1_005_movie_rental/)
+* [`t1_006_expense_tracker`](./000_B_SystemStudy/t1_006_expense_tracker/)
+* [`t1_007_task_manager`](./000_B_SystemStudy/t1_007_task_manager/)
 
 ### 🦀 Rust Core Engines (Implemented Backends)
 *Active codebase directory where high-level design meets robust backend execution.*
 
-* **`t1_001_library_system`**
+* **[`t1_001_library_system`](./t1_001_library_system/)**
   * **Status:** Complete Base Backend
   * **Core Files:** `Architecture.md`, `Cargo.toml`, full integration `src/` and `tests/` layout.
-* **`t2_001_e_commerce_order_system`**
+* **[`t2_001_e_commerce_order_system`](./t2_001_e_commerce_order_system/)**
   * **Status:** Complete Moderate Backend
   * **Core Files:** `Architecture.md`, `test.md`, transactional ordering engine in `src/` with `tests/`.
 
